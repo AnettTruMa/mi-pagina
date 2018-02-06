@@ -1,67 +1,93 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="">
-    <link rel="stylesheet" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-    <title>Mi página </title>
-  </head>
-  <body>
-    <section class="grid">
-      <div class="a">
-        <a>TruMa Boutique</a>
-        <div class="float-rigth">
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-          </ul>
-        </div>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="medias.css">
+  <link href="https://fonts.googleapis.com/css?family=Advent+Pro|Alegreya:400,700|Poiret+One" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <title>My page </title>
+</head>
+
+<body>
+  <section class="container">
+    <!--Barra de navegación-->
+
+    <div class="row" id="menu" class="sidenav">
+      <div class="menu" class="col-12">
+        <ul >
+          <div class="col-1"> </div>
+          <a class="name">TruMa Boutique</a>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Home</a></li>
+        </ul>
       </div>
-      <div class="b text">
-        <h1>TruMa Boutique</h1>
-        <h2>BOUTIQUE</h2>
+    </div>
+
+    <div class="row">
+      <div class="col-12" class="pasarela-container">
+        <img src="images/pasarela.gif" class="pasarela" class="col-12" alt="">
       </div>
-      <div class="c text">
-        <h3>What We Do</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <button type="button" name="button">Call to action</button>
+    </div>
+    <!--Información de la página -->
+    <div class="row">
+      <div class="col-2"> </div>
+      <div class="col-6">
+        <div class="row" id="info">What We Do</div>
+        <div class="row" id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quia excepturi neque, cumque inventore, aperiam quod quisquam unde esse aspernatur ex suscipit repudiandae dolorum eaque sunt hic, perferendis eum aliquid. <br> <br>Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Sit corporis optio alias. Obcaecati labore vitae, quis, quibusdam vero facere quo voluptatem repellendus fuga sed facilis? Esse nulla delectus quidem ea? </div>
+        <button class="row" id="button">Call to Action >></button>
       </div>
-      <div class="d text">
-        <h3>Contact Us</h3>
-        <img src="images/entramados.png" alt="">
-        <p>TruMa BOUTIQUE</p>
-        <p>Roma Sur, CDMX </p>
-        <p></p>
-        <p>e-mail: truma_boutique@gmail.com</p>
+      <div class="col-4">
+        <div class="row" id="info">Contact Us</div>
+        <div class="row" id="text">TruMa Boutique<br>Chilpancingo #151 Roma Sur<br>México DF<br><br>Telefono:5599003228<br>E-mail: truma_boutique@gmail.com</div>
       </div>
-      <div class="e text">
-        <img src="" alt="">
-        <h4>Tecnics</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <button type="button" name="button">Find Out More!</button>
+    </div>
+    <!--Cards-->
+    <div class="row" id="cards-container">
+      <div class="col-2"></div>
+      <div class="col-3" class="card">
+        <img src="images/girl.jpg" alt="fashion girl">
+        <p class="row"><b>Card Title</b></p>
+        <p class="row">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed beatae dignissimos distinctio! Dolorum aliquid hic quos fugiat magni, ut sequi pariatur incidunt ducimus dignissimos eligendi laborum autem voluptatum, quidem earum.</p>
+        <br>
+        <hr>
+        <div class="row"><button>Find out more!</button></div>
       </div>
-      <div class="f text">
-        <img src= alt="">
-        <h4>Material</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <button type="button" name="button">Find Out More!</button>
+      <div class="col-3" id="card" class="card">
+        <img src="images/kids.jpg" id="pic" alt="">
+        <p class="row"><b>Card Title</b></p>
+        <p class="row">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed beatae dignissimos distinctio! Dolorum aliquid hic quos fugiat magni, ut sequi pariatur incidunt ducimus dignissimos eligendi laborum autem voluptatum, quidem earum.</p>
+        <br>
+        <hr>
+        <div class="row"><button>Find out more!</button></div>
       </div>
-      <div class="g text">
-        <img src= alt="">
-        <h4>Workshop</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <button type="button" name="button">Find Out More!</button>
+      <div class="col-3" class="card">
+        <img src="images/man.jpg" alt="">
+        <p class="row"><b>Card Title</b></p>
+        <p class="row">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed beatae dignissimos distinctio! Dolorum aliquid hic quos fugiat magni, ut sequi pariatur incidunt ducimus dignissimos eligendi laborum autem voluptatum, quidem earum.</p>
+        <br>
+        <hr>
+        <div class="row"><button>Find out more!</button></div>
       </div>
-      <div class="h text">
-        <span>Copyright</span>
-        <i class="fa fa-copyright"></i>
-        <span>your website</span>
-      </div>
+      <div class="col-1"></div>
+    </div>
+
+    <div class="row">
+    <br>
+    </div>
+    <!--Sección del footer-->
+    <footer>
+      <div class="col-5"></div>
+     <p class="copyright">Copyright &#169; Your Website 2017</p>
+   </footer>
+
   </section>
-  </body>
+</body>
+
 </html>

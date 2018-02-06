@@ -1,0 +1,33 @@
+/*@media screen and (max-width: 900px) {
+    .sidenav {
+        width: 90%;
+        height: 50%;
+        position: fixed;
+    }
+    .sidenav li a {
+        float: left;
+        padding: 15px;
+    }
+    div {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+    .sidenav li a {
+        display: block;
+        text-align: center;
+        float: none;
+    }
+}*/
+
+@media screen and (max-width: 900px){
+.col-6,
+.col-3,
+.copyright
+ {
+  width: 90%;
+}
+.copyright{
+  text-align: center;
+  padding: 2px;
+}
+}
